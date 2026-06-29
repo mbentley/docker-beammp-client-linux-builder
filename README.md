@@ -28,3 +28,7 @@ docker run -it --rm -v /path/to/temp/build/directory:/build mbentley/beammp-linu
 
 /build.sh
 ```
+
+## Running
+
+Once built, the binary `BeamMP-Launcher` should be in wherever you set the placeholder value of `/path/to/temp/build/directory` to.  Within that directory, it will be found at `BeamMP-Launcher/bin/BeamMP-Launcher`. Follow the instructions for moving the finished application into it's own folder to run found in the [official documentation](https://docs.beammp.com/game/getting-started/#2b-linux-installation).
